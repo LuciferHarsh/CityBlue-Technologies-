@@ -806,3 +806,9 @@ button a {
     top: 87% !important;
   }
 }
+
+@media screen and (max-width: 1280px) {
+.menu-bar{
+  width:100vw!important;
+}
+}
