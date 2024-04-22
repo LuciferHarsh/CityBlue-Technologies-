@@ -143,7 +143,7 @@ img.cart-icon {
 }
 .menu-bar {
   background-color: #60636d;
-  width: 98.9vw;
+    width: calc(100vw - 17px) !important;
   position: relative; /* Position absolutely relative to the viewport */
 }
 
