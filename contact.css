@@ -421,4 +421,8 @@ textarea.form-control:focus{
        #main-menu li{
         padding: 9px 11px;
        }
+    .nav-right-call {
+       border:none!important;    
+    }
 }
+
