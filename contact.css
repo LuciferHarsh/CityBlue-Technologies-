@@ -425,5 +425,10 @@ textarea.form-control:focus{
        border:none!important;  
         border-bottom: 2px solid #ececed;
     }
+    #payment-icon{
+        width:100%!important;
+    }
+    #stay-informed{
+        width:100!important;
 }
 
