@@ -430,6 +430,7 @@ textarea.form-control:focus{
     }
     #stay-informed{
         width:100%!important;
+        align-content:center!important;
 }
 
 }
