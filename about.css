@@ -27,6 +27,9 @@ h2 {
 h3{
   font-size: 1.2rem;
 }
+.rightbox-wrapper{
+  width: 83%;
+}
 .call-link{
   text-decoration: none;
   color: #60636d;
@@ -93,7 +96,7 @@ border-right: 2px solid #ececed;
 .menu-bar{
   background-color: #60636d;
   color: #fff;
-  width: 100vw;
+  width: 100%;
 }
 
 .dropdown-menu {
@@ -119,6 +122,7 @@ border-right: 2px solid #ececed;
 #main-menu{
   display: flex;
   list-style: none;
+  justify-content: space-evenly;
   width: 100%;
 }
 #main-menu li a {
@@ -126,11 +130,11 @@ border-right: 2px solid #ececed;
   font-size: 12px;
   letter-spacing: 0.06rem;
   text-decoration: none;
-  padding: 7px;
   text-transform: capitalize;
   align-items: center;
   flex-direction: row;
   display: flex;
+  padding: 7px;
 }
 
 
@@ -146,7 +150,7 @@ border-right: 2px solid #ececed;
 }
 .dropdown-menu li a{
   color: black!important;
-  padding: 10px;
+  padding: 7px;
 }
 .inner-dropdown-menu{
   display: none;
@@ -199,11 +203,10 @@ border-right: 2px solid #ececed;
   padding-right: .5rem;
   padding-left: 0;
 }
-.container{
-  margin-left: 189.6px;
-  margin-right: 189.6px;
-  width: 75%;
+#navbarNav{
+  width: 100%;
 }
+
 
 
 
@@ -277,6 +280,16 @@ input.subbuttcl {
   padding: 4px 20px;
   text-transform: uppercase;
 }
+
+.line1, .line2 {
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+.line2 {
+    background-color: #60636D;
+}
+
 #newsletter-p{
   color: #454a4e;
   text-decoration: none;
@@ -298,6 +311,54 @@ input.subbuttcl {
 }
 
 
+.site-info{
+  padding-bottom: 25px;
+}
+.footer-copyright-terms-link{
+  background-color: #ececed;
+}
+#footer-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.footerleft, .right-link a {
+  font-size: 12px !important;
+  color: #41494d;
+
+}
+#newsletter-p{
+  font-size: 14px;
+  color:#495057;
+  text-decoration: none;
+}
+#newsletter-p:hover{
+  text-decoration: underline;
+  color:#344281;
+}
+.right-link a:hover{
+  color: #dc6520;
+}
+.copyright p:hover{
+  color: #dc6520;
+}
+
+.terms-link .right-link {
+  text-align: right;
+  padding-top: 20px;
+
+}
+.copyright
+{
+  padding-top: 20px
+}
+.sitemap, .terms {
+  padding-right: 5px;
+  border-right: 1px solid;
+}
+
+
 @media (max-width: 576px) {
   .container {
       max-width: 540px;
@@ -306,6 +367,9 @@ input.subbuttcl {
   }
 }
 @media (max-width: 768px) {
+  .rightbox-wrapper{
+    width: 100%;
+  }
   .container {
     width: 100%;
       max-width: 720px;
@@ -319,6 +383,9 @@ input.subbuttcl {
     align-items: flex-start;
     padding: 0;
     width: 100%!important;
+}
+#main-menu li a{
+  padding: 7px;
 }
 input.emaiccl {
   margin-left: 10px !important;
@@ -373,14 +440,14 @@ input.emaiccl {
 .img-fluid{
   width: 65%!important;
 }
-.mobile-logo{
-  display: inline-block;
-}
-#desktop-logo{
-  display: none;
-}
+
 #navbar-flexing{
   flex-direction: row!important;
+}
+.terms-link .right-link {
+  text-align: center;
+  padding-top: 20px;
+
 }
 }
 @media (width: 390px) {
@@ -391,23 +458,29 @@ input.emaiccl {
 
 
 @media (width: 414px) {
+
   input.lnameccl {
     margin-left:14px!important;
   }
 }
   
 @media (width: 430px) {
+ 
 input.emaiccl {
   display: inline-block;
   margin-left: 50px!important;
 }
 }
 @media (width: 412px) {
+ 
   input.lnameccl {
     display: flex;
   }
   }
   @media (width: 360px) {
+    .rightbox-wrapper{
+      width: 100%;
+    }
     #mailcart {
       width: 59%;
   }
@@ -418,12 +491,14 @@ input.emaiccl {
   }
 
 @media (width: 768px) {
+ 
   .nav-right-call {
     border-right: 2px solid #ececed!important;
     border-left: 2px solid #ececed!important;
     border-bottom: 2px solid #ececed!important;
 
   }
+
 .search-container{
  border: 2px solid #ececed!important;
 }
@@ -450,11 +525,14 @@ input.lnameccl {
 }
 
 @media (width:820px){
+
   .container{
     width: 100%!important;
     margin: 0 auto!important;
   }
-  
+    .rightbox-wrapper{
+    width: 100%;
+  }
   #main-menu {
     display: flex;
     list-style: none;
@@ -500,6 +578,9 @@ input.lnameccl {
   }
   #main-menu li a{
     padding: 6px 3px;
+  }
+  .rightbox-wrapper{
+    width: 100%;
   }
 }
 
@@ -581,4 +662,29 @@ input.lnameccl {
   width: 100%!important;
   margin: 0 auto;
 }
+.rightbox-wrapper{
+  width: 96%;
+}
+}
+@media screen and (min-width:414px){
+  input.lnameccl {
+    margin-left: 14px!important;
+  }
+}
+@media (width:768px){
+
+input.emaiccl {
+  margin-left: 50px !important;
+  display: inline-block;
+}
+}
+
+@media (max-width: 912px) {
+
+  .mobile-logo{
+    display: inline-block;
+  }
+  #desktop-logo{
+    display: none;
+  }
 }
