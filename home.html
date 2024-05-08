@@ -29,701 +29,243 @@
 
 <body>
   <nav
-    class="navbar navbar-expand-xl navbar-light bg-light main-nav sticky-top d-flex flex-column"
-    style="
-      position: relative;
-      width: 100%;
-      padding: 0;
-      background-color: #fff !important;
-    "
-  >
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarNav"
-      aria-controls="navbarNav"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="container">
-      <div class="col-xl-6">
-        <img
-          class="logo"
-          src="https://citybluetechnologies.com/wp-content/uploads/2019/08/CBT_logo.svg"
-        />
-      </div>
-      <div class="col-xl-5 col-lg-12 right-info-box float-right">
-        <div class="rightbox-wrapper">
-          <div class="row nav-right-call">
-            <div class="col-md-8">
-              <a
-                class="call-link"
-                href="tel:8007476500"
-                title="Click to Call Us"
-                ><p class="calling-no">CALL US (800) 747 6500</p></a
-              >
-            </div>
-            <div class="col-md-4 login-reg">
-              <!-- <a href="" title="Click here for login and Register"> -->
-              <p class="xoo-el-login-tgr login-signup">LOGIN &amp; SIGNUP</p>
-
-              <!-- </a> -->
-            </div>
-            <!-- login-reg end div -->
-          </div>
-          <!-- nav-right-call end div -->
-          <div
-            class="row nav-right-mail d-flex flex-nowrap"
-            id="icons-with-searchbar"
-          >
-            <div class="col-xs-8">
-              <img
-                class="search-icon"
-                src="https://icones.pro/wp-content/uploads/2021/02/loupe-et-icone-de-recherche-de-couleur-orange.png"
-              />
-              <input
-                type="text"
-                class="input-group"
-                placeholder="type here to search"
-              />
-            </div>
-            <div class="col-xs-4 mailCart">
-              <div class="header-icons">
-                <a href="https://citybluetechnologies.com/contact-us/"
-                  ><img
-                    src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/Cityblue-Website-icon-01.png"
-                    class="location-icon"
-                    alt="CityBlue Technologies Location Icon"
-                    title="CityBlue Technologies Location"
-                /></a>
-                <a href="mailto:info@citybluetech.com"
-                  ><img
-                    src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/Cityblue-Website-icon-02.png"
-                    class="email-icon"
-                    alt="CityBlue Technologies Email Icon"
-                    title="CityBlue Technologies Email Us"
-                /></a>
-                <a
-                  href="https://citybluetechnologies.com/wishlist/"
-                  style="text-decoration: none"
-                  ><img
-                    class="wishlist-header-heart"
-                    src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/Cityblue-Website-icon-03.png"
-                  />
-                  <!-- <i class="wishlist-header-heart fa fa-heart-o" aria-hidden="true"></i> -->
-                </a>
-                <a
-                  href="https://citybluetechnologies.com/cart"
-                  style="position: relative; text-decoration: none !important"
-                >
-                  <img
-                    src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/Cityblue-Website-icon-04.png"
-                    class="cart-icon"
-                    alt="CityBlue Technologies Cart Icon"
-                    title="CityBlue Technologies Cart"
-                  />
-                </a>
+  class="navbar navbar-expand-lg navbar-light bg-light main-nav sticky-top d-flex flex-column"
+  style="
+    position: relative;
+    background-color: #fff !important;
+    padding-bottom: 0;
+  " id="navbar-flexing"
+>
+<div class="mobile-logo">
+<a href="https://citybluetechnologies.com/" class="navbar-brand custom-logo-link" rel="home" aria-current="page">
+  <img width="1" height="1" src="https://citybluetechnologies.com/wp-content/uploads/2019/08/CBT_logo.svg" class="img-fluid" alt="CityBlue Technologies" decoding="async" style="width: auto; height: 62px; visibility: visible;"></a>
+</div>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarNav"
+    aria-controls="navbarNav"
+    aria-expanded="false"
+    aria-label="Toggle navigation">    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="container d-flex" id="main-container">
+        <div class="col-xl-6" id="desktop-logo">
+            <a href="https://citybluetechnologies.com/" class="navbar-brand custom-logo-link" rel="home" aria-current="page">
+                <img width="1" height="1" src="https://citybluetechnologies.com/wp-content/uploads/2019/08/CBT_logo.svg" class="img-fluid" alt="CityBlue Technologies" decoding="async" style="width: auto; height: 80px; visibility: visible;"></a>
+        </div>
+        <div class="col-xl-5" id="col-of-box">
+            <div class="rightbox-wrapper">
+                <div class="row nav-right-call">
+                  <div class="col-md-8">
+                    <a
+                      class="call-link"
+                      href="tel:8007476500"
+                      title="Click to Call Us"
+                      ><p class="calling-no">CALL US (800) 747 6500</p></a
+                    >
+                  </div>
+                  <div class="col-md-4 login-reg">
+                    <p class="login-signup-text">LOGIN &amp; SIGNUP</p>
+                  </div>
+                </div>
+                  <div class="row nav-right-mail d-flex " id="icons-with-searchbar">
+                    <div class="search-container">
+                        <img class="search-icon" src="https://icones.pro/wp-content/uploads/2021/02/loupe-et-icone-de-recherche-de-couleur-orange.png">
+                        <input type="text" class="search-box" placeholder="type here to search">
+                    </div>
+                  
+                  <div class="col-xs-4 mailCart" id="mailcart">
+                    <div class="header-icons">
+                    <a href="https://citybluetechnologies.com/contact-us/"><img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/Cityblue-Website-icon-01.png" class="location-icon" alt="CityBlue Technologies Location Icon" title="CityBlue Technologies Location"></a>
+                     <a href="mailto:info@citybluetech.com"><img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/Cityblue-Website-icon-02.png" class="email-icon" alt="CityBlue Technologies Email Icon" title="CityBlue Technologies Email Us"></a>
+                     <a href="https://citybluetechnologies.com/wishlist/" style="text-decoration: none;"><img class="wishlist-header-heart" src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/Cityblue-Website-icon-03.png">
+                      <!-- <i class="wishlist-header-heart fa fa-heart-o" aria-hidden="true"></i> -->
+                    </a>
+                    <a href="https://citybluetechnologies.com/cart" style="position: relative;text-decoration: none !important;">
+                                    <img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/Cityblue-Website-icon-04.png" class="cart-icon" alt="CityBlue Technologies Cart Icon" title="CityBlue Technologies Cart">
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-          <!-- Search form nav-right-mail end -->
-        </div>
-        <!-- rightbox-wrapper end -->
-      </div>
-    </div>
-
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <div class="menu-bar">
-          <div class="container2">
-            <div class="menu-menu-1-container">
-              <ul id="main-menu" class="navbar-nav">
-                <li
-                  itemscope="itemscope"
-                  itemtype="https://www.schema.org/SiteNavigationElement"
-                  id="menu-item-83"
-                  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-83 nav-item"
-                >
-                  <a
-                    title="COPIERS PLOTTERS &amp; PRINTERS"
-                    href="#"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                    class="dropdown-toggle nav-link"
-                    id="menu-item-dropdown-83"
-                    >COPIERS PLOTTERS &amp; PRINTERS</a
-                  >
-                  <ul
-                    class="dropdown-menu"
-                    aria-labelledby="menu-item-dropdown-83"
-                    role="menu"
-                  >
-                    <li
-                      itemscope="itemscope"
-                      itemtype="https://www.schema.org/SiteNavigationElement"
-                      id="menu-item-7611"
-                    >
-                      <a
-                        title="Small and Large format Copiers"
-                        href="https://www.citybluetechnologies.com/product-category/copiers/"
-                        class="dropdown-item"
-                        >Small and Large format Copiers</a
-                      >
-                    </li>
-                    <li
-                      itemscope="itemscope"
-                      itemtype="https://www.schema.org/SiteNavigationElement"
-                      id="menu-item-3084"
-                    >
-                      <a
-                        title="Small Format Printers"
-                        href="https://www.citybluetechnologies.com/product-category/small-format-printers/"
-                        class="dropdown-item"
-                        >Small Format Printers</a
-                      >
-                    </li>
-                    <li
-                      itemscope="itemscope"
-                      itemtype="https://www.schema.org/SiteNavigationElement"
-                      id="menu-item-141"
-                    >
-                      <a
-                        title="Large Format Printers"
-                        href="https://www.citybluetechnologies.com/product-category/large-format-printers/"
-                        class="dropdown-item"
-                        >Large Format Printers</a
-                      >
-                    </li>
-                    <li
-                      itemscope="itemscope"
-                      itemtype="https://www.schema.org/SiteNavigationElement"
-                      id="menu-item-237"
-                    >
-                      <a
-                        title="Large Format Scanners"
-                        href="https://www.citybluetechnologies.com/product-category/large-format-scanners/"
-                        class="dropdown-item"
-                        >Large Format Scanners</a
-                      >
-                    </li>
-                    <li
-                      itemscope="itemscope"
-                      itemtype="https://www.schema.org/SiteNavigationElement"
-                      id="menu-item-1589"
-                    >
-                      <a
-                        title="Aperture Card Scanners"
-                        href="https://www.citybluetechnologies.com/product-category/aperture-card-scanner/"
-                        class="dropdown-item"
-                        >Aperture Card Scanners</a
-                      >
-                    </li>
-                    <li
-                      itemscope="itemscope"
-                      itemtype="https://www.schema.org/SiteNavigationElement"
-                      id="menu-item-3814"
-                    >
-                      <a
-                        title="Large Format Cutters"
-                        href="https://www.citybluetechnologies.com/product-category/large-format-cutters/"
-                        class="dropdown-item"
-                        >Large Format Cutters</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li
-                  itemscope="itemscope"
-                  itemtype="https://www.schema.org/SiteNavigationElement"
-                  id="menu-item-85"
-                  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-85 nav-item"
-                >
-                  <a
-                    title="SUPPLIES"
-                    href="#"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                    class="dropdown-toggle nav-link"
-                    id="menu-item-dropdown-85"
-                    >SUPPLIES</a
-                  >
-                  <ul
-                    class="dropdown-menu"
-                    aria-labelledby="menu-item-dropdown-85"
-                    role="menu"
-                  >
-                    <li
-                      itemscope="itemscope"
-                      itemtype="https://www.schema.org/SiteNavigationElement"
-                      id="menu-item-241"
-                      class="menu-item menu-item-type-custom menu-item-object-custom menu-item-241 nav-item"
-                    >
-                      <a
-                        title="Printing Supplies"
-                        href="https://www.citybluetechnologies.com/product-category/supplies/"
-                        class="dropdown-item"
-                        >Printing Supplies</a
-                      >
-                    </li>
-                    <div class="dropdown-item">
-                      <a
-                        class="dropdown-toggle"
-                        href="#"
-                        id="menu-item-dropdown-242"
-                        role="button"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                        >Océ</a
-                      >
-                      <ul
-                        class="dropdown-menu"
-                        aria-labelledby="menu-item-dropdown-242"
-                      >
-                        <li>
-                          <a
-                            href="https://citybluetechnologies.com/product-category/supplies/oce/?product-type=ink"
-                            rel="stylesheet"
-                            >Ink</a
-                          >
-                        </li>
-                        <li>
-                          <a
-                            href="https://citybluetechnologies.com/product-category/supplies/oce/?product-type=toner"
-                            rel="stylesheet"
-                            >Tonner</a
-                          >
-                        </li>
-                        <li>
-                          <a
-                            href="https://citybluetechnologies.com/product-category/supplies/oce/?product-type=media"
-                            rel="stylesheet"
-                            >Media</a
-                          >
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="dropdown-item">
-                      <a
-                        class="dropdown-toggle"
-                        href="#"
-                        id="menu-item-dropdown-242"
-                        role="button"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                        >Conon</a
-                      >
-                      <ul
-                        class="dropdown-menu"
-                        aria-labelledby="menu-item-dropdown-242"
-                      >
-                        <li>
-                          <a
-                            href="https://citybluetechnologies.com/product-category/supplies/canon/?product-type=ink"
-                            rel="stylesheet"
-                            >Ink</a
-                          >
-                        </li>
-                        <li>
-                          <a
-                            href="https://citybluetechnologies.com/product-category/supplies/canon/?product-type=toner"
-                            rel="stylesheet"
-                            >Tonner</a
-                          >
-                        </li>
-                        <li>
-                          <a
-                            href="https://citybluetechnologies.com/product-category/supplies/canon/?product-type=media"
-                            rel="stylesheet"
-                            >Media</a
-                          >
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="dropdown-item">
-                      <a
-                        class="dropdown-toggle"
-                        href="#"
-                        id="menu-item-dropdown-242"
-                        role="button"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                        >Epson</a
-                      >
-                      <ul
-                        class="dropdown-menu"
-                        aria-labelledby="menu-item-dropdown-242"
-                      >
-                        <li>
-                          <a
-                            href="https://citybluetechnologies.com/product-category/supplies/epson/?product-type=ink"
-                            rel="stylesheet"
-                            >Ink</a
-                          >
-                        </li>
-                        <li>
-                          <a
-                            href="https://citybluetechnologies.com/product-category/supplies/epson/?product-type=media"
-                            rel="stylesheet"
-                            >Media</a
-                          >
-                        </li>
-                      </ul>
-                    </div>
-                  </ul>
-                </li>
-                <li
-                  itemscope="itemscope"
-                  itemtype="https://www.schema.org/SiteNavigationElement"
-                  id="menu-item-1466"
-                >
-                  <a
-                    title="SERVICE &amp; SUPPORT"
-                    href="https://citybluetechnologies.com/professional-service-support/"
-                    class="nav-link"
-                    >SERVICE &amp; SUPPORT</a
-                  >
-                </li>
-                <li
-                  itemscope="itemscope"
-                  itemtype="https://www.schema.org/SiteNavigationElement"
-                  id="menu-item-87"
-                  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-87 nav-item"
-                >
-                  <a
-                    title="PRINTING SERVICES"
-                    href="#"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                    class="dropdown-toggle nav-link"
-                    id="menu-item-dropdown-87"
-                    >PRINTING SERVICES</a
-                  >
-                  <ul
-                    class="dropdown-menu"
-                    aria-labelledby="menu-item-dropdown-87"
-                    role="menu"
-                  >
-                    <li
-                      itemscope="itemscope"
-                      itemtype="https://www.schema.org/SiteNavigationElement"
-                      id="menu-item-1331"
-                      class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1331 nav-item"
-                    >
-                      <a
-                        title="Color Printing"
-                        href="https://www.citybluetechnologies.com/color-print-services/#overview"
-                        class="dropdown-item"
-                        >Color Printing</a
-                      >
-                    </li>
-                    <li
-                      itemscope="itemscope"
-                      itemtype="https://www.schema.org/SiteNavigationElement"
-                      id="menu-item-1332"
-                      class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1332 nav-item"
-                    >
-                      <a
-                        title="Large Format Printing"
-                        href="https://www.citybluetechnologies.com/large-format-printing/"
-                        class="dropdown-item"
-                        >Large Format Printing</a
-                      >
-                    </li>
-                    <li
-                      itemscope="itemscope"
-                      itemtype="https://www.schema.org/SiteNavigationElement"
-                      id="menu-item-1334"
-                      class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1334 nav-item"
-                    >
-                      <a
-                        title="Large Format Copying"
-                        href="https://www.citybluetechnologies.com/large-format-copying/"
-                        class="dropdown-item"
-                        >Large Format Copying</a
-                      >
-                    </li>
-                    <li
-                      itemscope="itemscope"
-                      itemtype="https://www.schema.org/SiteNavigationElement"
-                      id="menu-item-1336"
-                      class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1336 nav-item"
-                    >
-                      <a
-                        title="Scanning"
-                        href="https://www.citybluetechnologies.com/scanning/"
-                        class="dropdown-item"
-                        >Scanning</a
-                      >
-                    </li>
-                    <li
-                      itemscope="itemscope"
-                      itemtype="https://www.schema.org/SiteNavigationElement"
-                      id="menu-item-1337"
-                      class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1337 nav-item"
-                    >
-                      <a
-                        title="Finishing Services"
-                        href="https://www.citybluetechnologies.com/finishing-services/"
-                        class="dropdown-item"
-                        >Finishing Services</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li
-                  itemscope="itemscope"
-                  itemtype="https://www.schema.org/SiteNavigationElement"
-                  id="menu-item-86"
-                  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-86 nav-item"
-                >
-                  <a
-                    title="DIGITAL SOLUTIONS"
-                    href="#"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                    class="dropdown-toggle nav-link"
-                    id="menu-item-dropdown-86"
-                    >DIGITAL SOLUTIONS</a
-                  >
-                  <ul
-                    class="dropdown-menu"
-                    aria-labelledby="menu-item-dropdown-86"
-                    role="menu"
-                  >
-                    <li
-                      itemscope="itemscope"
-                      itemtype="https://www.schema.org/SiteNavigationElement"
-                      id="menu-item-5311"
-                    >
-                      <a
-                        title="Digital  Services"
-                        href="https://citybluetechnologies.com/digitalservices/"
-                        class="dropdown-item"
-                        >Digital Services</a
-                      >
-                    </li>
-                    <li
-                      itemscope="itemscope"
-                      itemtype="https://www.schema.org/SiteNavigationElement"
-                      id="menu-item-3848"
-                    >
-                      <a
-                        title="CB Perform"
-                        href="https://citybluetechnologies.com/perform/"
-                        class="dropdown-item"
-                        >CB Perform</a
-                      >
-                    </li>
-                    <li
-                      itemscope="itemscope"
-                      itemtype="https://www.schema.org/SiteNavigationElement"
-                      id="menu-item-1423"
-                    >
-                      <a
-                        title="Online Planrooms"
-                        href="https://citybluetechnologies.com/online-planrooms/"
-                        class="dropdown-item"
-                        >Online Planrooms</a
-                      >
-                    </li>
-                    <li
-                      itemscope="itemscope"
-                      itemtype="https://www.schema.org/SiteNavigationElement"
-                      id="menu-item-1085"
-                    >
-                      <a
-                        title="Send Us Files"
-                        href="https://citybluetechnologies.com/send-us-file/"
-                        class="dropdown-item"
-                        >Send Us Files</a
-                      >
-                    </li>
-                    <li
-                      itemscope="itemscope"
-                      itemtype="https://www.schema.org/SiteNavigationElement"
-                      id="menu-item-1333"
-                    >
-                      <a
-                        title="Bid Document Management"
-                        href="https://www.citybluetechnologies.com/bid-document-management/"
-                        class="dropdown-item"
-                        >Bid Document Management</a
-                      >
-                    </li>
-                    <li
-                      itemscope="itemscope"
-                      itemtype="https://www.schema.org/SiteNavigationElement"
-                      id="menu-item-1338"
-                    >
-                      <a
-                        title="Digital Archiving &amp; Hosting"
-                        href="https://www.citybluetechnologies.com/digital-archiving-hosting/"
-                        class="dropdown-item"
-                        >Digital Archiving &amp; Hosting</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li
-                  itemscope="itemscope"
-                  itemtype="https://www.schema.org/SiteNavigationElement"
-                  id="menu-item-1920"
-                >
-                  <a
-                    title="DRONE SERVICES"
-                    href="https://citybluetechnologies.com/drone-services/"
-                    class="nav-link"
-                    >DRONE SERVICES</a
-                  >
-                </li>
-                <li
-                  itemscope="itemscope"
-                  itemtype="https://www.schema.org/SiteNavigationElement"
-                  id="menu-item-90"
-                  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-90 nav-item"
-                >
-                  <a
-                    title="ABOUT US"
-                    href="#"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                    class="dropdown-toggle nav-link"
-                    id="menu-item-dropdown-90"
-                    >ABOUT US</a
-                  >
-                  <ul
-                    class="dropdown-menu"
-                    aria-labelledby="menu-item-dropdown-90"
-                    role="menu"
-                  >
-                    <li
-                      itemscope="itemscope"
-                      itemtype="https://www.schema.org/SiteNavigationElement"
-                      id="menu-item-264"
-                    >
-                      <a
-                        title="Overview"
-                        href="https://www.citybluetechnologies.com/about-us/"
-                        class="dropdown-item"
-                        >Overview</a
-                      >
-                    </li>
-                    <li
-                      itemscope="itemscope"
-                      itemtype="https://www.schema.org/SiteNavigationElement"
-                      id="menu-item-265"
-                    >
-                      <a
-                        title="Lifecycle Solutions"
-                        href="https://www.citybluetechnologies.com/about-us/#lifestyle-solutions"
-                        class="dropdown-item"
-                        >Lifecycle Solutions</a
-                      >
-                    </li>
-                    <li
-                      itemscope="itemscope"
-                      itemtype="https://www.schema.org/SiteNavigationElement"
-                      id="menu-item-266"
-                    >
-                      <a
-                        title="History"
-                        href="https://www.citybluetechnologies.com/about-us/#history"
-                        class="dropdown-item"
-                        >History</a
-                      >
-                    </li>
-                    <li
-                      itemscope="itemscope"
-                      itemtype="https://www.schema.org/SiteNavigationElement"
-                      id="menu-item-267"
-                    >
-                      <a
-                        title="People"
-                        href="https://www.citybluetechnologies.com/about-us/#people"
-                        class="dropdown-item"
-                        >People</a
-                      >
-                    </li>
-                    <li
-                      itemscope="itemscope"
-                      itemtype="https://www.schema.org/SiteNavigationElement"
-                      id="menu-item-268"
-                    >
-                      <a
-                        title="Clients"
-                        href="https://www.citybluetechnologies.com/about-us/#clients"
-                        class="dropdown-item"
-                        >Clients</a
-                      >
-                    </li>
-                    <li
-                      itemscope="itemscope"
-                      itemtype="https://www.schema.org/SiteNavigationElement"
-                      id="menu-item-269"
-                    >
-                      <a
-                        title="Corporate Social Responsibility"
-                        href="https://www.citybluetechnologies.com/about-us/#csr"
-                        class="dropdown-item"
-                        >Corporate Social Responsibility</a
-                      >
-                    </li>
-                    <li
-                      itemscope="itemscope"
-                      itemtype="https://www.schema.org/SiteNavigationElement"
-                      id="menu-item-270"
-                    >
-                      <a
-                        title="What's New"
-                        href="https://www.citybluetechnologies.com/about-us/#whatsnew"
-                        class="dropdown-item"
-                        >What’s New</a
-                      >
-                    </li>
-                    <li
-                      itemscope="itemscope"
-                      itemtype="https://www.schema.org/SiteNavigationElement"
-                      id="menu-item-4212"
-                    >
-                      <a
-                        title="Blogs"
-                        href="https://citybluetechnologies.com/blogs/"
-                        class="dropdown-item"
-                        >Blogs</a
-                      >
-                    </li>
-                    <li
-                      itemscope="itemscope"
-                      itemtype="https://www.schema.org/SiteNavigationElement"
-                      id="menu-item-271"
-                    >
-                      <a
-                        title="Contact"
-                        href="https://citybluetechnologies.com/contact-us/"
-                        class="dropdown-item"
-                        >Contact</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-              </ul>
             </div>
-          </div>
         </div>
-      </ul>
     </div>
-  </nav>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto" style="    margin: 0;
+      padding: 0;
+      width: 100%;
+  ">
+    <div class="menu-bar">
+        <div class="container" id="navbar-container">
+            <div class="menu-menu-1-container">
+              <ul class="navbar-nav me-auto mb-2 mb-xl-1"></ul>
+                <ul id="main-menu">
+                    <li>
+                        <a href="#" class="dropdown-toggle">COPIERS PLOTTERS & PRINTERS</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://www.citybluetechnologies.com/product-category/copiers/">Small and Large format Copiers</a></li>
+                            <li><a href="https://www.citybluetechnologies.com/product-category/small-format-printers/">Small Format Printers</a></li>
+                            <li><a href="https://www.citybluetechnologies.com/product-category/large-format-printers/">Large Format Printers</a></li>
+                            <li><a href="https://www.citybluetechnologies.com/product-category/large-format-scanners/">Large Format Scanners</a></li>
+                            <li><a href="https://www.citybluetechnologies.com/product-category/aperture-card-scanner/">Aperture-Card-Scanner</a></li>
+                            <li><a href="https://www.citybluetechnologies.com/product-category/large-format-cutters/">Large Format Cutters</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-toggle">SUPPLIES</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://www.citybluetechnologies.com/product-category/supplies/">Printing-Supplies</a></li>
+                                    <div class="dropdown-item">
+                                        <a
+                                          class="dropdown-toggle"
+                                          href="#"
+                                          id="menu-item-dropdown-242"
+                                          role="button"
+                                          aria-haspopup="true"
+                                          aria-expanded="false"
+                                          style="color: black;"
+                                          >Océ</a
+                                        >
+                                        <ul
+                                          class="dropdown-menu"
+                                          aria-labelledby="menu-item-dropdown-242"
+                                        >
+                                          <li>
+                                            <a
+                                              href="https://citybluetechnologies.com/product-category/supplies/oce/?product-type=ink"
+                                              rel="stylesheet" 
+                                              >Ink</a
+                                            >
+                                          </li>
+                                          <li>
+                                            <a href="https://www.citybluetechnologies.com/product-category/supplies/oce/?product-type=toner"
+                                            rel="stylesheet">
+                                            Tonner</a>
+                                          </li>
+                                          <li>
+                                            <a href="https://www.citybluetechnologies.com/product-category/supplies/oce/?product-type=media"
+                                            rel="stylesheet">
+                                            Media</a>
+                                          </li>
 
-  <div
+                                        </ul>
+                                    </div>
+                                    <div class="dropdown-item">
+                                        <a
+                                          class="dropdown-toggle"
+                                          href="#"
+                                          id="menu-item-dropdown-242"
+                                          role="button"
+                                          aria-haspopup="true"
+                                          aria-expanded="false"
+                                          style="color: black;"
+                                          >Canon</a
+                                        >
+                                        <ul
+                                          class="dropdown-menu"
+                                          aria-labelledby="menu-item-dropdown-242"
+                                        >
+                                          <li>
+                                            <a
+                                              href="https://citybluetechnologies.com/product-category/supplies/canon/?product-type=ink"
+                                              rel="stylesheet" 
+                                              >Ink</a
+                                            >
+                                          </li>
+                                          <li>
+                                            <a href="https://www.citybluetechnologies.com/product-category/supplies/canon/?product-type=toner"
+                                            rel="stylesheet">
+                                            Tonner</a>
+                                          </li>
+                                          <li>
+                                            <a href="https://www.citybluetechnologies.com/product-category/supplies/canon/?product-type=media"
+                                            rel="stylesheet">
+                                            Media</a>
+                                          </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="dropdown-item">
+                                        <a
+                                          class="dropdown-toggle"
+                                          href="#"
+                                          id="menu-item-dropdown-242"
+                                          role="button"
+                                          aria-haspopup="true"
+                                          aria-expanded="false"
+                                          style="color: black;"
+                                          >Epson</a
+                                        >
+                                        <ul
+                                          class="dropdown-menu"
+                                          aria-labelledby="menu-item-dropdown-242"
+                                        >
+                                          <li>
+                                            <a
+                                              href="https://citybluetechnologies.com/product-category/supplies/epson/?product-type=ink"
+                                              rel="stylesheet" 
+                                              >Ink</a
+                                            >
+                                          </li>
+                                          <li>
+                                            <a href="https://www.citybluetechnologies.com/product-category/supplies/epson/?product-type=media"
+                                            rel="stylesheet">
+                                            Media</a>
+                                          </li>
+
+                                        </ul>
+                                    </div>
+                                </li>
+                                
+                        </ul>
+                    </li>
+                    <li>
+                      <a href="https://citybluetechnologies.com/professional-service-support/">SERVICE & SUPPORT </a>
+
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown-toggle">PRINTING-SERVICES</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="https://www.citybluetechnologies.com/color-print-services/#overview">Color Printing</a></li>
+                        <li><a href="https://www.citybluetechnologies.com/large-format-printing/">Large-Format-Printing</a></li>
+                        <li><a href="https://www.citybluetechnologies.com/large-format-copying/">Large-Format-Copying</a></li>
+                        <li><a href="https://www.citybluetechnologies.com/scanning/">Scanning</a></li>
+                        <li><a href="https://www.citybluetechnologies.com/finishing-services/">Finishing-Services</a></li>
+
+                        </ul>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown-toggle">DIGTAL SOLUTIONS</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="https://citybluetechnologies.com/digitalservices/">Digital Services</a></li>
+                        <li><a href="https://citybluetechnologies.com/perform/">CB Perform</a></li>
+                        <li><a href="https://citybluetechnologies.com/online-planrooms/">Online-Planrooms</a></li>
+                        <li><a href="https://citybluetechnologies.com/send-us-file/">Send Us File</a></li>
+                        <li><a href="https://www.citybluetechnologies.com/bid-document-management/">Bid Document Management</a></li>
+                        <li><a href="https://www.citybluetechnologies.com/digital-archiving-hosting/">Digital Archiving Hosting</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                      <a href="https://citybluetechnologies.com/drone-services/">DRONE SERVICE</a>
+                    </li>
+                    <li>
+                      <a href="#" class="dropdown-toggle">ABOUT US</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="https://citybluetechnologies.com/about-us/">Overview</a></li>
+                        <li><a href="https://citybluetechnologies.com/about-us/#lifestyle-solutions">Lifecycle Solutions</a></li>
+                        <li><a href="https://citybluetechnologies.com/about-us/#history">History</a></li>
+                        <li><a href="https://citybluetechnologies.com/about-us/#people">People</a></li>
+                        <li><a href="https://citybluetechnologies.com/about-us/#clients">CLients</a></li>
+                        <li><a href="https://citybluetechnologies.com/about-us/#csr">Corporate Social Responsiblity</a></li>
+                        <li><a href="https://citybluetechnologies.com/about-us/#whatsnew">What's News</a></li>
+                        <li><a href="https://citybluetechnologies.com/about-us/#blogs">Blogs</a></li>
+                        <li><a href="https://citybluetechnologies.com/contact-us/">Contact-Us</a></li>
+                    </li>
+                </ul>
+            </div>
+  </nav>
+  <div 
     id="carouselExampleIndicators"
     class="carousel slide"
     data-ride="carousel"
@@ -797,7 +339,7 @@
   <div class="container_icon">
     <div
       class="row"
-      style="display: flex; text-allign: center"
+      style="display: flex; text-align: center;"
       id="container_row"
     >
       <div
@@ -935,7 +477,7 @@
   </div>
 
   <div class="container two-row">
-    <div class="row brands-row">
+    <div class="row brands-row" id="video-brands-row">
       <div class="col-md-6 col-6" id="video-container">
         <div class="imgyourservice">
           <video controls="">
@@ -954,7 +496,7 @@
           printer, powered by PrecisionCore Heat-Free TechnologyTM, offers the
           lowest total printing costs in its class.</span
         >
-        <div style="text-align: left; margin-top: 43px; margin-bottom: 20px">
+        <div style="text-align: left; margin-top: 43px; margin-bottom: 20px" id="btn-align">
           <button
             type="button"
             class="btn btn-warning"
@@ -1335,219 +877,98 @@
     </div>
   </section>
 
-  <div
-    class="footer_container bg-white"
-    style="
-      margin: 0 auto;
-      border-top: 2px solid #60636d;
-      border-bottom: 2px solid #60636d;
-    "
-  >
-    <div
-      class="row"
-      id="footer-row"
-      style="display: flex; justify-content: space-evenly"
-    >
-      <div
-        class="col-lg-2 col-md-4 seal-column mt-5"
-        style="width: 41%; text-align: center; bottom: 22px; position: relative"
-        id="payment-icon"
-      >
-        <p class="bold footer-head">100% Secure and Trusted Payment</p>
+ 
+<div class="line1"></div>
+<div class="line2"></div>
+<div class="line1"></div>
 
-        <a
-          href="https://www.paypal.com/us/verified/pal=orders%40citybluetech%2ecom"
-          title="Official PayPal Seal"
-          target="_blank"
-          ><img
-            src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-paypal.png"
-            border="0"
-            alt="Official PayPal Seal"
-            title="Official PayPal Seal"
-            width="70"
-        /></a>
 
-        <script
-          type="text/javascript"
-          src="https://www.rapidscansecure.com/siteseal/siteseal.js?code=81,CF6D725FF3030159EDBA6398CCEB394983524356"
-          alt="CompliAssure Secured Trust Seal"
-          title="CompliAssure Secured Trust Seal"
-        ></script>
-        <a
-          href="#"
-          style="text-decoration: none; display: none"
-          onclick="javascript:window.open('https://www.rapidscansecure.com/siteseal/Verify.aspx?code=81,CF6D725FF3030159EDBA6398CCEB394983524356', 'Verification',  'location=no, toolbar=no, resizable=no, scrollbars=yes, directories=no, status=no,top=100,left=100, width=960, height=526'); return false;"
-          ><img
-            alt="CompliAssure SiteSeal"
-            src="https://www.rapidscansecure.com/siteseal/Seal.aspx?code=81,CF6D725FF3030159EDBA6398CCEB394983524356"
-            border="0"
-        /></a>
 
-        <script type="text/javascript" language="javascript">
-          var ANS_customer_id = "46d2a66e-f2a8-43bf-be9d-8d43a30f905d";
-        </script>
-        <script
-          type="text/javascript"
-          language="javascript"
-          src="//verify.authorize.net/anetseal/seal.js"
-          alt="Authorize.Net Trust Seal"
-          title="Authorize.Net Trust Seal"
-        ></script>
-        <style type="text/css">
-          div.AuthorizeNetSeal {
-            text-align: center;
-            margin: 0;
-            padding: 0;
-            width: 90px;
-            font: normal 9px arial, helvetica, san-serif;
-            line-height: 10px;
-          }
-          div.AuthorizeNetSeal a {
-            text-decoration: none;
-            color: black;
-          }
-          div.AuthorizeNetSeal a:visited {
-            color: black;
-          }
-          div.AuthorizeNetSeal a:active {
-            color: black;
-          }
-          div.AuthorizeNetSeal a:hover {
-            text-decoration: underline;
-            color: black;
-          }
-          div.AuthorizeNetSeal a img {
-            border: 0px;
-            margin: 0px;
-            text-decoration: none;
-          }
-        </style>
-        <a
-          href="https://verify.authorize.net/anetseal/?pid=46d2a66e-f2a8-43bf-be9d-8d43a30f905d&amp;rurl=https://citybluetechnologies.com"
-          onmouseover="window.status='http://www.authorize.net/'; return true;"
-          onmouseout="window.status=''; return true;"
-          onclick="window.open('https://verify.authorize.net/anetseal/?pid=46d2a66e-f2a8-43bf-be9d-8d43a30f905d&amp;rurl=https://citybluetechnologies.com','AuthorizeNetVerification','width=600,height=430,dependent=yes,resizable=yes,scrollbars=yes,menubar=no,toolbar=no,status=no,directories=no,location=yes'); return false;"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <img
-            src="https://verify.authorize.net/anetseal/images/secure90x72.gif"
-            width="90"
-            height="72"
-            border="0"
-            alt="Authorize.Net Merchant - Click to Verify"
-          />
-        </a>
-      </div>
-      <div
-        class="col-lg-3 col-md-4 text-center mt-5"
-        style="
-          width: 26%;
-          text-align: center;
-          display: flex;
-          flex-direction: column;
-          align-content: flex-start;
-          align-items: stretch;
-          flex-wrap: wrap;
-        "
-        id="stay-informed"
-      >
-        <p class="body footer-head bold">Stay Informed</p>
-        <a
-          class="regular newsletter-p"
-          href="https://citybluetechnologies.com/about-us/#whatsnew"
-          >Subscribe to our Newsletter</a
-        >
-      </div>
-      <div class="col-lg-3 col-md-4 mt-5" id="social-link-col">
-        <div class="social-link">
-          <p class="body footer-head bold" style="margin-bottom: 10px">
-            Follow Us
-          </p>
-          <a
-            target="_blank"
-            href="http://www.facebook.com/pages/CityBlue/60518724578"
-            ><img
-              src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-facebook.png"
-              alt="CityBlue Technologies Facebook icon"
-              title="CityBlue Technologies Facebook link"
-              style="background: white"
-          /></a>
-          <a target="_blank" href="https://twitter.com/citybluetech"
-            ><img
-              src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-twitter.png"
-              alt="CityBlue Technologies Twitter icon"
-              title="CityBlue Technologies Twitter link"
-          /></a>
-          <a
-            target="_blank"
-            href="https://www.linkedin.com/company/cityblue-technologies"
-            ><img
-              src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-linkedIn.png"
-              alt="CityBlue Technologies Linkedin icon"
-              title="CityBlue Technologies Linkedin link"
-          /></a>
-          <a
-            target="_blank"
-            href="https://www.youtube.com/user/citybluetechnologies"
-            ><img
-              src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-youtube.png"
-              alt="CityBlue Technologies Youtube icon"
-              title="CityBlue Technologies Youtube link"
-          /></a>
-          <a
-            target="_blank"
-            href="http://www.yelp.com/biz/cityblue-technologies-peoria"
-            ><img
-              src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-yelp.png"
-              alt="CityBlue Technologies Yelp icon"
-              title="CityBlue Technologies Yelp link"
-          /></a>
-          <a target="_blank" href="www.instagram.com/cityblue_6"
-            ><img
-              src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-instagram.png"
-              alt="CityBlue Technologies Instagram icon"
-              title="CityBlue Technologies Instagram link"
-          /></a>
-        </div>
-      </div>
+
+<div class="site-info">
+<div class="col-md-12">
+  <div class="container" id="footer-row">
+    <div class="col-md-4 mt-5 text-center" id="stp">
+    <p class="bold footer-head">100% Secure and Trusted Payment</p>
+    <a href="https://www.paypal.com/us/verified/pal=orders%40citybluetech%2ecom" title="Official PayPal Seal" target="_blank"><img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-paypal.png" border="0" alt="Official PayPal Seal" title="Official PayPal Seal" width="70"></a>
+    <a href="#" style="text-decoration:none;" onclick="javascript:window.open('https://www.rapidscansecure.com/siteseal/Verify.aspx?code=81,CF6D725FF3030159EDBA6398CCEB394983524356', 'Verification',  'location=no, toolbar=no, resizable=no, scrollbars=yes, directories=no, status=no,top=100,left=100, width=960, height=526'); return false;"><img alt="CompliAssure SiteSeal" src="https://www.rapidscansecure.com/siteseal/Seal.aspx?code=81,CF6D725FF3030159EDBA6398CCEB394983524356" border="0"></a>
+    <script type="text/javascript" language="javascript">
+      var ANS_customer_id = "46d2a66e-f2a8-43bf-be9d-8d43a30f905d";
+    </script>
+    <script type="text/javascript" language="javascript" src="//verify.authorize.net/anetseal/seal.js" alt="Authorize.Net Trust Seal" title="Authorize.Net Trust Seal"></script>
+    <style type="text/css">
+      div.AuthorizeNetSeal {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        width: 90px;
+        font: normal 9px arial, helvetica, san-serif;
+        line-height: 10px;
+      }
+      div.AuthorizeNetSeal a {
+        text-decoration: none;
+        color: black;
+      }
+      div.AuthorizeNetSeal a:visited {
+        color: black;
+      }
+      div.AuthorizeNetSeal a:active {
+        color: black;
+      }
+      div.AuthorizeNetSeal a:hover {
+        text-decoration: underline;
+        color: black;
+      }
+      div.AuthorizeNetSeal a img {
+        border: 0px;
+        margin: 0px;
+        text-decoration: none;
+      }
+    </style>
+    <a href="https://verify.authorize.net/anetseal/?pid=46d2a66e-f2a8-43bf-be9d-8d43a30f905d&amp;rurl=https://citybluetechnologies.com" onmouseover="window.status='http://www.authorize.net/'; return true;" onmouseout="window.status=''; return true;" onclick="window.open('https://verify.authorize.net/anetseal/?pid=46d2a66e-f2a8-43bf-be9d-8d43a30f905d&amp;rurl=https://citybluetechnologies.com','AuthorizeNetVerification','width=600,height=430,dependent=yes,resizable=yes,scrollbars=yes,menubar=no,toolbar=no,status=no,directories=no,location=yes'); return false;" rel="noopener noreferrer" target="_blank">
+      <img src="https://verify.authorize.net/anetseal/images/secure90x72.gif" width="90" height="72" border="0" alt="Authorize.Net Merchant - Click to Verify">
+    </a>
     </div>
+  <div class="col-md-4 mt-5 text-center" id="stay-informed">
+    <p class="body footer-head bold">Stay Informed</p>
+    <a class="regular newsletter-p" href="https://citybluetechnologies.com/about-us/#whatsnew" id="newsletter-p">Subscribe to our Newsletter</a>
   </div>
-
-  <div class="row" style="font-size: small">
-    <div
-      class="col-md-6 copyright"
-      style="width: 50%; text-align: center"
-      id="copyright"
-    >
-      <p class="regular footerleft">
-        Copyright © 2021 CityBlue Technologies All Rights Reserved
+  <div class="col-md-4 mt-5 text-center" id="social-link-col">
+    <div class="social-link">
+      <p class="body footer-head bold" style="margin-bottom: 10px">
+        Follow Us
       </p>
-    </div>
-
-    <div class="col-md-6 right-link" style="text-align: center">
-      <a
-        href="https://citybluetechnologies.com/sitemap/"
-        class="regular footerright sitemap"
-        title="Site Map Page"
-        style="border-right: 1px solid black; padding: 0px 9px"
-        >Site Map</a
-      >
-      <a
-        href="https://citybluetechnologies.com/terms-of-use/"
-        class="regular footerright terms"
-        title="Terms &amp; Conditions Page"
-        style="border-right: 1px solid black; padding: 0px 9px"
-        >Terms &amp; Conditions</a
-      >
-      <a
-        href="https://citybluetechnologies.com/privacy-policy/"
-        class="regular footerright privecy"
-        title="Privacy Policy Page"
-        >Privacy Policy</a
-      >
+      <a target="_blank" href="http://www.facebook.com/pages/CityBlue/60518724578"><img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-facebook.png" alt="CityBlue Technologies Facebook icon" title="CityBlue Technologies Facebook link" style="background: white"></a>
+      <a target="_blank" href="https://twitter.com/citybluetech"><img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-twitter.png" alt="CityBlue Technologies Twitter icon" title="CityBlue Technologies Twitter link"></a>
+      <a target="_blank" href="https://www.linkedin.com/company/cityblue-technologies"><img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-linkedIn.png" alt="CityBlue Technologies Linkedin icon" title="CityBlue Technologies Linkedin link"></a>
+      <a target="_blank" href="https://www.youtube.com/user/citybluetechnologies"><img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-youtube.png" alt="CityBlue Technologies Youtube icon" title="CityBlue Technologies Youtube link"></a>
+      <a target="_blank" href="http://www.yelp.com/biz/cityblue-technologies-peoria"><img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-yelp.png" alt="CityBlue Technologies Yelp icon" title="CityBlue Technologies Yelp link"></a>
+      <a target="_blank" href="www.instagram.com/cityblue_6"><img src="https://citybluetechnologies.com/wp-content/themes/understrap-master/image/cbt-instagram.png" alt="CityBlue Technologies Instagram icon" title="CityBlue Technologies Instagram link"></a>
     </div>
   </div>
+  </div>
+</div>
+</div>
+<div class="terms-link">
+  <div class="line1"></div>
+  <div class="line2"></div>
+
+ 
+  <div class="footer-copyright-terms-link">
+  <div class="container" id="footer-container">
+    <div class="row">
+      <div class="col-md-6 copyright">
+        <p class="regular footerleft">Copyright © 2021 CityBlue Technologies All Rights Reserved</p>
+      </div>
+      <div class="col-md-6 right-link">
+        <a href="https://citybluetechnologies.com/sitemap/" class="regular footerright sitemap" title="Site Map Page">Site Map</a>
+        <a href="https://citybluetechnologies.com/terms-of-use/" class="regular footerright terms" title="Terms &amp; Conditions Page">Terms &amp; Conditions</a>
+        <a href="https://citybluetechnologies.com/privacy-policy/" class="regular footerright privecy" title="Privacy Policy Page">Privacy Policy</a>
+      </div>
+    </div>
+  </div>
+</div>
+
 
   <!-- jQuery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
