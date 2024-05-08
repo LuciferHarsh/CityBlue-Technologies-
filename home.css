@@ -588,6 +588,10 @@ button a {
   .mobile-logo {
     display: none;
   }
+    .text-block{
+    left: 18%!important;
+    top: 1%!important;
+  }
 }
 @media (width: 1706px) {
   #desktop-logo {
