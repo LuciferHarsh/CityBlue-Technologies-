@@ -237,8 +237,8 @@ h3 {
   display: flex;
   color: white;
   width: 34%;
-  left: 19%;
-  top: 11%;
+   left: 19%;
+  top: 1%;
 }
 
 .carousel-item-next,
@@ -587,10 +587,6 @@ button a {
   }
   .mobile-logo {
     display: none;
-  }
-    .text-block{
-    left: 18%!important;
-    top: 1%!important;
   }
 }
 @media (width: 1706px) {
